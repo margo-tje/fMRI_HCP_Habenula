@@ -30,12 +30,14 @@ When all seeds and ROIs are achieved, you can run CONN for the fMRI analysis. I 
   
 ## Resting state fMRI: 2nd level analysis in R
 Combine all output from CONN in one excel as input to R for 2nd level analysis.
+
    Used script: RScript_ROItoROI_300pps-BMI-RestingState_clean.R
    
   *for the exploratory dataset (n=72), the same is used but different input, and BMI * HbA1c instead of BMI + HbA1c.
 
 ## Task fMRI: 2nd level analysis in R
 Extract feat data (downloaded from HCP) for the ROI of your choice. Then, use script in R to perform 2nd level analysis.
+
   Used script: R_MixedModel_Script_tfMRI_final.R
 
 
