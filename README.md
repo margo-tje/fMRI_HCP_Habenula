@@ -20,17 +20,17 @@ Used V-Net automated habenula segmentation using only T1w scans from Kim, Joo-wo
 
 Then, resulting habenula seeds were thresholded as in Ely, Benjamin A., et al. "Resting‐state functional connectivity of the human habenula in healthy individuals: Associations with subclinical depression." Human brain mapping 37.7 (2016): 2369-2384.
 
-   Used script: VNet_Segmentation.sh
+   Used script: Segmentationscript_Vnet.sh
 
 ## Running CONN
 When all seeds and ROIs are achieved, you can run CONN for the fMRI analysis. I adapted this script: https://github.com/alfnie/conn/blob/master/conn_batch_humanconnectomeproject.m
 
-  Used script: conn_ROItoROI_Multivar
+  Used script: conn_ROItoROI_Multivar.m
   Slightly adapted per dataset
   
 ## Resting state fMRI: 2nd level analysis in R
 I combine all output from CONN in 1 excel as input to R for 2nd level analysis.
-   Used script: RScript_ROItoROI_300pps-BMI-RestingState.r
+   Used script: RScript_ROItoROI_300pps-BMI-RestingState_clean.R
    
   *for the exploratory dataset (n=72), the same is used but different input, and BMI * HbA1c instead of BMI + HbA1c.
 
