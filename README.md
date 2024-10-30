@@ -10,7 +10,7 @@ Authors: M.Slomp 1,2,3,4, I.G.S. de Lange 1,4, J.D.Mul 2,5, A.Schrantee 2,6*, S.
 6. Department of Radiology and Nuclear Medicine, Amsterdam UMC, University of Amsterdam, Meibergdreef 9, Amsterdam, Netherlands. 
 *contributed equally
 
-Contact info: m.slomp@amsterdamumc.nl
+Contact info: margo.slomp@ucsf.edu or s.e.lafleur@amsterdamumc.nl
 
 ## Data used: Human Connectome Project (HCP) S1200 Release.
 You can downdload the dataset on: https://db.humanconnectome.org/app/template/Login.vm
